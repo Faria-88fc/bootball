@@ -147,6 +147,16 @@ body{
 
 
 
+/*-------------------footer section------------*/
+/*----------------------------------------------*/
 
-
-
+footer{
+    text-align: center;
+}
+footer img{
+    width: 485px;
+    height: 110;
+}
+footerp{
+    font-size: 18px;
+}
