@@ -96,7 +96,54 @@ body{
 
 /*----------------------------------/
 /*-------main section--------------*/
-/*----------------------------------/
+/*----------------------------------*/
+
+#container{
+    width: 1320px;
+    height: 1590px;
+    justify-content: center;
+    margin-top: 35px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: space-around;
+    grid-row-gap:30px;
+    margin-left: 111px;
+    margin-right: 90px;
+    margin-top: 18px;
+    
+}
+.player{
+    box-shadow: 10px 13px 48px lightgray;
+    width:330px ;
+    height:474px;
+   
+}
+.player-pic img{
+    padding: 15px;
+    width: 300px;
+    height: 256px;
+    
+}
+.player-name{
+    padding: 15px;
+    margin: 0;
+    font-size: 28;
+    color: #18191f;
+    font-weight: bold;
+
+}
+.player-details{
+    padding: 15px;
+    margin-bottom: 20px;
+    height: 104px;
+    margin: 0px;
+    font-size:16px ;
+    font-weight:regular ;
+    color: #6c6c6c;
+
+}
 
 
 
