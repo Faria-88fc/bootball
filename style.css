@@ -37,7 +37,7 @@ body{
     text-decoration: none;
     background-image: linear-gradient(rgb(245, 53, 19),#770b0b);
 }
-
+/*-------------------hover--------------*/
 #button:hover{
     color: black;
     background-color: rgb(245, 159, 144);
@@ -152,11 +152,18 @@ body{
 
 footer{
     text-align: center;
+    margin-top: 35px;
 }
+
 footer img{
     width: 485px;
     height: 110;
 }
-footerp{
+
+.font-aw a{
+    font-size: 30px;
+    padding: 8px;
+}
+footer p{
     font-size: 18px;
 }
