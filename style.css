@@ -281,14 +281,20 @@ footer p{
 
 @media only screen and (max-width:768px){
     #top-sec{
-        background-color:white;
-        width: 1000px;
-        
-
+        background-repeat: repeat;
     }
     #top-sec-div{
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
        
+    }
+    #img-div{
+        width: 300px;
+        height: 200px;
+    }
+    top-sec-img{
+        width: 280px;
+        height: 180px;
     }
 
     .players{
@@ -297,8 +303,11 @@ footer p{
         margin-left: 100px;
     }
     #top-section-title{
-        font-size: 30px;
-        animation-play-state: paused;
+        font-size: 16px;
 
+    }
+    #container{
+        height: 100%;
+        width: 100%;
     }
 }
