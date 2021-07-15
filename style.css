@@ -7,6 +7,7 @@ body{
 /*---------------header section-----------------*/
 
 #top-sec{
+    width: 100%;
     background-image: url(pictures/banner/field.png);
     background-repeat: no-repeat;
     background-size: 1330px 500px;
@@ -94,13 +95,15 @@ body{
     transform-origin: 10 0;
 }
 
+
 /*----------------------------------/
 /*-------main section--------------*/
 /*----------------------------------*/
 
+/*---------main section 1 ----------*/
 #container{
     width: 1320px;
-    height: 1590px;
+    height: 1570px;
     justify-content: center;
     margin-top: 35px;
 }
@@ -143,6 +146,52 @@ body{
     font-weight:regular ;
     color: #6c6c6c;
 
+}
+
+/*---------main section 2 ----------*/
+
+#sec2{
+    border:none;
+}
+#extra-sec{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 5px;
+    
+}
+#extra-sec:hover{
+    box-shadow:8px 8px 8px 8px lightgray ;
+}
+.sec-2-cmn{
+    margin-left: 60px;
+}
+#video{
+    margin-bottom: 40px;
+}
+.sec-2-cmn h2{
+    height: 80px;
+    width: 400px;
+    color: white;
+    font-weight: 700;
+    padding: 70px 20px 35px 20px;
+    margin-top: 100px;
+    border-radius: 0 15px;
+    background-image: linear-gradient(rgb(228, 80, 80),lightgreen,rgb(39, 36, 197),lightblue,rgb(187, 19, 19));
+}
+#button-2{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 30px;
+    background-color: orangered;
+}
+#button-2:hover{
+    background-color:rgb(228, 80, 80) ;
+    border-radius: 10px;
+    transition: 0.5s;
 }
 
 
