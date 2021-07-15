@@ -280,6 +280,9 @@ footer p{
 
 
 @media only screen and (max-width:768px){
+    body{
+        width: 768px;
+    }
 
     #top-sec{
         background-repeat: repeat;
