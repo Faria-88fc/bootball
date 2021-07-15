@@ -163,7 +163,7 @@ body{
     box-shadow:8px 8px 8px 8px lightgray ;
 }
 .sec-2-cmn{
-    margin-left: 60px;
+    margin-left: 100px;
 }
 #video{
     margin-bottom: 40px;
@@ -200,7 +200,54 @@ body{
 #sec3{
     display: flex;
     justify-content: space-between;
+    border: 2px solid;
+    margin-top: 18px
 }
+#schedule{
+    margin-left: 100px;
+}
+#schedule a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+#form h3{
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#form input, button{
+    font-size: 18px;
+    border: 2px solid green;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+#form button{
+    background-color:#377B00;
+    font-weight:700px;
+    color:white;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+#form p{
+    font-size: 12px;
+    font-weight: 200;
+}
+#sec3:hover{
+    background-color: #F1F8E5;
+}
+
+
+
 
 
 /*-------------------footer section------------*/
